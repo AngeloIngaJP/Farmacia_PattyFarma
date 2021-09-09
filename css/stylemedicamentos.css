@@ -1,0 +1,347 @@
+.container_noresults{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.img_noresults{
+    width: 300px;
+}
+
+.noresults_text{
+    margin-top: 10px;
+}
+
+.text_noresults{
+    font-size: 20px;
+}
+
+.medicament_container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.6rem;
+}
+
+.medicaments_container.stock_container{
+    margin-top: 2.6rem;
+}
+
+.title{
+    text-align: center;
+    padding: 30px;
+    color: #1a6a79;
+}
+
+.cards_container{
+    display: grid;
+    margin: 13px 18px 0.9rem 18px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 6rem;
+}
+
+.single_card{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left, #64ccdf, #218ea1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.single_card::before,
+.single_card::after{
+    content: '';
+    position: absolute;
+    top: -5%;
+    right: -14%;
+    width: 170px;
+    height: 170px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 100%;
+}
+
+.single_card::after{
+    top: auto;
+    bottom: -5%;
+    right: -8%;
+}
+
+.card_icon{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_card{
+    font-size: 2.3rem;
+}
+
+.value_card{
+    margin-top: 10px;
+}
+
+.single_card:hover .text_card,
+.single_card:hover .number_card,
+.single_card:hover .icon_card{
+    color: #fff;
+}
+
+.text_card{
+    font-size: 1.3rem;
+}
+
+.increased{
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+}
+
+.increased i{
+    margin-right: 10px;
+}
+
+.single_card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.search{
+    margin: 0px 50px;
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #05404b;
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px #56868f;
+    overflow: hidden;
+}
+
+.search.active{
+    width: 280px;
+}
+
+.content_sebut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #05404b;
+    background: #fff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.search .input{
+    position: relative;
+    width: 220px;
+    height: 40px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .input input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.clear{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    font-size: 25px;
+    color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.medicaments_container, .users_container{
+    margin: 18px 18px 0px 18px;
+    padding-bottom: 50px;
+}
+
+.img_medicament{
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .5);
+}
+
+td a, .addbutton a{
+    padding: 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+
+td a:nth-child(1){
+    background: #309ce4;
+}
+
+td a:nth-child(1):hover{
+    background: #2186c9;
+}
+
+td a:nth-child(2), .tr_medicament td .delete_user{
+    background: #ad3333;
+}
+
+td a:nth-child(2):hover, .tr_medicament td .delete_user:hover{
+    background: #a32121;
+}
+
+
+.excel_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_excel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.addbutton{
+    /* margin-left: 70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.addbutton a{
+    background: #33ad33;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.addbutton a:hover{
+    background: #229122;
+}
+
+.zmdi-upload{
+    padding: 0px 15px 0px 0px;
+}
+.zmdi-upload:hover{
+    color: black;
+    transition: color 0.2s linear 0.2s;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: #4245a8;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+}
+
+.file-input__label:hover{
+    background-color: #262a94;
+}
+/*******/
+
+.btn-enviar{
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 45px;
+  background-color: coral;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn-enviar:hover{
+    background-color: rgb(218, 86, 38);
+}
+
+.excel_container .button_export{
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 12px;
+    background-color: #2664d6;
+}
+
+.excel_container .button_export:hover{
+    background-color: #114cbb;
+}
+
+.button_export i{
+    margin-right: 10px;
+}
+
+
+.single_card.singlecard_pedidos{
+    background: linear-gradient(to left, #b576F6, #9a4fe9);
+}
+
+.medicaments_container.pedidos_container{
+    margin-top: 3.5rem;
+}

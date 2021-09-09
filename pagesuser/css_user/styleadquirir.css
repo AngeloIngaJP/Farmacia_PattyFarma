@@ -1,0 +1,86 @@
+
+.medicaments_container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.container_productimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_product{
+    width: 200px;
+    height: 150px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+.img_product img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+.content_product{
+    text-align: start;
+}
+
+
+.img_product, .content_product{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content_product p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.cantidadSelect{
+    outline: none;
+    width: 150px;
+}
+
+
+.input_comprar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 20px 20px 0;
+}
+
+.imput_submitcompra{
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    background: #33ad33;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition:  all 0.5s;
+}
+
+.imput_submitcompra:hover{
+    background: #229122;  
+}
+
+.monto_content, .descuento_content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#resultado1, .SolesTotal{
+    color: #13545f;
+}
+
+#resultado2, .SolesDesc{
+    color: #ce2121;
+}

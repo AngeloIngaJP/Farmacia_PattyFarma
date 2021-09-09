@@ -1,0 +1,44 @@
+.button_adquirir{
+    background: #FFBA00 !important;
+    transition: all 0.5s;
+    font-size: 16px !important;
+}
+
+.button_adquirir:hover{
+    background: #d3ac42 !important;
+}
+
+.button_adquiridotemp{
+    font-size: 16px !important;
+    outline: none;
+    padding: 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #33ad33;
+    border: none;
+    color: #fff;
+}
+
+
+.container_noresults{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.img_noresults{
+    width: 300px;
+}
+
+.noresults_text{
+    margin-top: 10px;
+}
+
+.text_noresults{
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.confi_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.title_value, .title_paragraph, .titleparagraphsub, .titleparagraphsubsub{
+    text-align: center;
+}
+
+.paragraph_container{
+    margin-top: 50px;
+}
+
+.title_value{
+    color: #1a6a79;
+}
+
+.title_paragraph, .titleparagraphsub, .titleparagraphsubsub{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.button_return{
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #309ce4;
+    transition: all 0.5s;
+    border: none;
+    font-size: 18px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.button_return:hover{
+    background: #2186c9;
+}
+
+.conf_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img_conf{
+    width: 300px;
+}

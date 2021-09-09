@@ -1,0 +1,26 @@
+.cards_userprimary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.single_cardprimary{
+    width: 453px;
+    padding: 32px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.single_cardprimary:nth-child(1){
+    background: linear-gradient(to left, #6aa5e3, #6866e9);
+}
+
+.single_cardprimary:nth-child(2){
+    background: linear-gradient(to left, #b576F6, #9a4fe9);     
+}
+
+.user_container{
+    margin-top: 3.5rem;
+}
+

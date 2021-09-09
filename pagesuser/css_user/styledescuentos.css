@@ -1,0 +1,110 @@
+.descuentos_container{
+    margin-top: 30px;
+}
+
+.cards_container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.descuentos_title{
+    color: #1a6a79;
+    text-align: center;
+}
+
+
+.cards_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.single_carddesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+    border-left: 1px solid rgba(0,0,0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single_carddesc .med_title{
+    color: #13545f;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.img_desc{
+    width: 200px;
+    height: 150px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+.img_desc .descimg{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+.textori, .textdesc{
+    color: #555;
+}
+
+.precioori, .preciodesc{
+    display: flex;
+    margin-top: 5px;
+}
+
+.pricedesc, .priceori{
+    margin-left: 10px;
+}
+
+.preciodesc .pricedesc{
+    color: #ce2121;
+}
+
+.cart_button{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fff;
+    background: #FFBA00;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.cart_button:hover{
+    background: #d3ac42;
+}
+
+.cart_button i{
+    margin-left: 15px;
+}
+
+.button_adquiridotempdesc{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fff;
+    background: #33ad33;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-size: 16px;
+    border: none;
+}

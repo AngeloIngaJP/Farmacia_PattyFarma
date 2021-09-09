@@ -1,0 +1,60 @@
+.mision_content, .vision_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.information_title, .nosotros_title{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #324546;
+}
+
+.information_text{
+    width: 500px;
+    text-align: justify;
+}
+
+.mision_information{
+    margin-right: 80px;
+}
+
+.img_informationweare{
+    height: 250px;
+    width: 500px;
+    box-shadow: 9px 10px 31px -1px rgba(151,151,151,0.74);
+    -webkit-box-shadow: 9px 10px 31px -1px rgba(151,151,151,0.74);
+    -moz-box-shadow: 9px 10px 31px -1px rgba(151,151,151,0.74);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.vision_information{
+    margin-left: 80px;
+}
+
+.nosotros_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nosotros_information{
+    width: 1080px;
+}
+
+.nosotros_text{
+    text-align: justify;
+}
+
+.nosotros_image{
+    margin-top: 70px;
+}
+
+.nosotros_image{
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
